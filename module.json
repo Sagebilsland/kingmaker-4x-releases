@@ -1,0 +1,42 @@
+{
+  "id": "kingmaker-4x",
+  "title": "Kingmaker 4X",
+  "description": "A custom Pathfinder Kingmaker kingdom-management dashboard for 4X-style realm play.",
+  "version": "0.10.341",
+  "url": "https://github.com/Sagebilsland/kingmaker-4x-releases",
+  "manifest": "https://github.com/Sagebilsland/kingmaker-4x-releases/releases/latest/download/module.json",
+  "download": "https://github.com/Sagebilsland/kingmaker-4x-releases/releases/download/v0.10.341/kingmaker-4x.zip",
+  "readme": "https://github.com/Sagebilsland/kingmaker-4x-releases#readme",
+  "changelog": "https://github.com/Sagebilsland/kingmaker-4x-releases/releases",
+  "authors": [
+    {
+      "name": "Sage and Codex"
+    }
+  ],
+  "compatibility": {
+    "minimum": "13.343",
+    "verified": "13"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "pf2e",
+        "type": "system",
+        "compatibility": {
+          "minimum": "7.12.2",
+          "verified": "7.12.2"
+        }
+      }
+    ]
+  },
+  "esmodules": [
+    "scripts/foundry/module-bootstrap.js"
+  ],
+  "styles": [
+    "styles/fixed-frame.css",
+    "styles/kingmaker-4x.css",
+    "styles/crown-table-modular.css",
+    "styles/council-ledgers.css"
+  ]
+}
+
